@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carta</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="img/cora.png" type="image/x-icon">
+</head>
+<body>
+  
+
+  
+
+  <main>
+    <div class="container-letter">
+      <div class="cover"></div>
+      <span class="heart">♥Natalia♥</span>
+      <p class="paper" id="mainMessage">
+        Han pasado días sin hablar, pero quiero que sepas que sigo aquí y me sigues importando. No quiero que el silencio nos aleje, 
+        pero tampoco quiero forzar nada. Espero que podamos vernos pronto.</p>
+      <div class="letter"></div>
+    </div>
+    <div class="options">
+      <button id="open">Abrir</button>
+      <button id="close">Cerrar</button>
+      
+    </div>
+
+    <button id="playButton" onclick="document.getElementById('miAudio').play()">Reproducir</button>
+    <audio id="miAudio" src="sound/otravez.mp3" ></audio>
+    <b>Después de Abrir la Carta, Dame tu Respuesta Abajo.</b>
+    
+  </main>
+
+  
+
+  
+  <section class="form-section">
+    <form action="https://formsubmit.co/mulettpulidocamilo15@outlook.com" method="post">
+      
+      <label for="mensaje">Mensaje:</label>
+      <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+      <br />
+
+      <input type="submit" value="Enviar">
+      
+    </form>
+  </section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
